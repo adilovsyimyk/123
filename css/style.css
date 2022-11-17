@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#block .block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 96%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #007aff;
+}
+
+#header {
+  padding: 20px;
+}
+#header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header--nav a {
+  margin: 0 20px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #2F3035;
+}
+#header .header--icon ion-icon {
+  font-size: 22px;
+}
+#header .header--icon a {
+  font-weight: 700;
+  font-size: 20px;
+  color: #2F3035;
+}
+#header .header--icons a {
+  font-size: 25px;
+}
+
+#hero {
+  padding: 35px;
+  background: #e7e7f8;
+}
+#hero .hero--navbar {
+  display: flex;
+  justify-content: space-around;
+}
+#hero .hero--navbar a {
+  margin: 0 26px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #2F3035;
+}
+#block {
+  padding: 70px;
+}
+#block .block--aci {
+  width: 300px;
+  height: 397px;
+  border: 1px solid #CDCDCD;
+  border-radius: 3px;
+}
+#block .block--aci div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#block .block--aci div button {
+  border: none;
+  width: 90px;
+  height: 30px;
+  background: #1C62CD;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+#block .block--aci div h1 {
+  text-align: right;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 32px;
+  color: #1C62CD;
+}
+#block .block--aci p {
+  text-align: right;
+}
+#block .block--aci img {
+  margin: 0 25px;
+}
+#block .block--aci h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: #2F3035;
+  padding: 10px 0;
+}
+#block .block--aci h3 {
+  padding: 20px 0;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #2F3035;
+}
+#block .block--aci h4 {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #1C62CD;
+}
+
+#general .general--nav {
+  padding: 30px 0;
+  display: flex;
+}
+#general .general--nav p {
+  margin: 0 20px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #2F3035;
+}
+#general .general--btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1150px;
+  height: 50px;
+  background: #F0F0F4;
+  border-radius: 3px;
+}
+#general .general--btn input {
+  margin: 30px;
+  padding-left: 8px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+#general .general--btn button {
+  border: none;
+  cursor: pointer;
+  width: 145px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #1C62CD;
+  border-radius: 3px;
+}
+
+/*# sourceMappingURL=style.css.map */
